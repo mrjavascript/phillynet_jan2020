@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{A2BB13E9-92B7-4B94-AEB5-7FB7262B5CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{AC8E420B-732B-4F87-A446-96D9041C43D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{968760C5-666C-4AA0-91AC-30877CF0A1BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaOfCircleLambda", "AreaOfCircleLambda\AreaOfCircleLambda.csproj", "{3F981637-82F8-4698-BD35-3E8508C2388E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfCircleFunctions", "AreaOfCircleFunctions\AreaOfCircleFunctions.csproj", "{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F981637-82F8-4698-BD35-3E8508C2388E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F981637-82F8-4698-BD35-3E8508C2388E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F981637-82F8-4698-BD35-3E8508C2388E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F981637-82F8-4698-BD35-3E8508C2388E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F981637-82F8-4698-BD35-3E8508C2388E} = {AC8E420B-732B-4F87-A446-96D9041C43D9}
+		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1} = {A2BB13E9-92B7-4B94-AEB5-7FB7262B5CF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35AB303C-965F-43B0-943A-E324D49483EA}
+	EndGlobalSection
+EndGlobal
