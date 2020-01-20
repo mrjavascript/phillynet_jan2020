@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaOfCircleLambda", "AreaO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfCircleFunctions", "AreaOfCircleFunctions\AreaOfCircleFunctions.csproj", "{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreMvcApp", "DotNetCoreMvcApp\DotNetCoreMvcApp.csproj", "{5693505C-DADC-4FB0-A8AE-939872CF15CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5693505C-DADC-4FB0-A8AE-939872CF15CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5693505C-DADC-4FB0-A8AE-939872CF15CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5693505C-DADC-4FB0-A8AE-939872CF15CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5693505C-DADC-4FB0-A8AE-939872CF15CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3F981637-82F8-4698-BD35-3E8508C2388E} = {AC8E420B-732B-4F87-A446-96D9041C43D9}
 		{A939A4BC-FF6C-494B-9CBE-E9A4EA480EC1} = {A2BB13E9-92B7-4B94-AEB5-7FB7262B5CF2}
+		{5693505C-DADC-4FB0-A8AE-939872CF15CF} = {968760C5-666C-4AA0-91AC-30877CF0A1BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35AB303C-965F-43B0-943A-E324D49483EA}
