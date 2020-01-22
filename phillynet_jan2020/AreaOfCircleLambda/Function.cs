@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -21,7 +22,18 @@ namespace AreaOfCircleLambda
         /// <returns></returns>
         public string FunctionHandler(string input, ILambdaContext context)
         {
-            return input?.ToUpper();
+            // return input?.ToUpper();
+            
+            //
+            //    conversion code
+            if (string.IsNullOrEmpty(input))
+            {
+                throw new ArgumentNullException(input);
+            }
+
+            int.TryParse(input, out var radius);
+            var area = Math.PI * Math.Pow(radius, 2);
+            return area.ToString(CultureInfo.InvariantCulture);
         }
     }
 }

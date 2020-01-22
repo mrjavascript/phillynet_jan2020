@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phillynet-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phillynet-example
+  template:
+    metadata:
+      labels:
+        app: phillynet-example
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+        - name: phillynet-example
+          image: phillynetjan2020acr.azurecr.io/mikemeluskytestclusterf479:1
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: phillynet-example
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: phillynet-example
