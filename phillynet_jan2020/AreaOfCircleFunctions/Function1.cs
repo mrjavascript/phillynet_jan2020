@@ -30,7 +30,7 @@ namespace AreaOfCircleFunctions
 
             //
             //    conversion code
-            var input = req.Query["radius"];
+            var input = req.Query["name"];
             if (string.IsNullOrEmpty(input))
             {
                 return new BadRequestObjectResult("Radius is required!");
